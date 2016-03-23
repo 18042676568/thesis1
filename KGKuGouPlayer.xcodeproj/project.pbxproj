@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0780F91BB0E81D002FEB1D /* NEUButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0780F81BB0E81D002FEB1D /* NEUButton.m */; };
+		1D0780FD1BB0FEF4002FEB1D /* CoreDataMngTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0780FC1BB0FEF4002FEB1D /* CoreDataMngTool.m */; };
+		1D083ADD1BABB20500B2827A /* PlayBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D083ADC1BABB20500B2827A /* PlayBar.xib */; };
+		1D083AE01BABB4E600B2827A /* KGPlayBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D083ADF1BABB4E600B2827A /* KGPlayBar.m */; };
+		1D083AEA1BABB75800B2827A /* NSString+DateTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D083AE31BABB75800B2827A /* NSString+DateTransform.m */; };
+		1D083AEB1BABB75800B2827A /* NSString+MoreExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D083AE51BABB75800B2827A /* NSString+MoreExtentions.m */; };
+		1D083AEC1BABB75800B2827A /* UIImage+MoreExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D083AE71BABB75800B2827A /* UIImage+MoreExtensions.m */; };
+		1D083AED1BABB75800B2827A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D083AE91BABB75800B2827A /* UIView+Extension.m */; };
+		1D083AF31BAF93C200B2827A /* KGMusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D083AF21BAF93C200B2827A /* KGMusicTableViewCell.m */; };
+		1D0BBF8A1BB248F300535AF6 /* AudioPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BBF891BB248F300535AF6 /* AudioPlayerTool.m */; };
+		1D1F7C5B1BAA61F000AAEC1B /* KGMusicCellStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F7C5A1BAA61F000AAEC1B /* KGMusicCellStatus.m */; };
+		1D1F7C601BAA634300AAEC1B /* KGHomePageMusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F7C5F1BAA634300AAEC1B /* KGHomePageMusicTableViewCell.m */; };
+		1D1F7C641BAA6D1400AAEC1B /* MoreList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D1F7C611BAA6D1400AAEC1B /* MoreList.plist */; };
+		1D1F7C651BAA6D1400AAEC1B /* MyMusicSelList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D1F7C621BAA6D1400AAEC1B /* MyMusicSelList.plist */; };
+		1D1F7C661BAA6D1400AAEC1B /* webMusicList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D1F7C631BAA6D1400AAEC1B /* webMusicList.plist */; };
+		1D1F7C6A1BAB9E4C00AAEC1B /* KGLocalMusicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F7C691BAB9E4C00AAEC1B /* KGLocalMusicTableViewController.m */; };
+		1D1F7C6E1BABA01E00AAEC1B /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F7C6D1BABA01E00AAEC1B /* Music.m */; };
+		1D6CCBB31BBA316000F43F6F /* KGSaveListSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CCBB21BBA316000F43F6F /* KGSaveListSectionHeaderView.m */; };
+		1D79015B1BAFB2FE001D7588 /* KGMusicMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D79015A1BAFB2FE001D7588 /* KGMusicMenu.m */; };
+		1D989EA91BB8D88A001BA0E2 /* KGSaveListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D989EA81BB8D88A001BA0E2 /* KGSaveListTableViewController.m */; };
+		1D989EAD1BB8DE00001BA0E2 /* KGSaveListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D989EAC1BB8DE00001BA0E2 /* KGSaveListView.m */; };
+		1DB372F61BB38F0B0018CDB4 /* KGMyLoveTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB372F51BB38F0B0018CDB4 /* KGMyLoveTableViewController.m */; };
+		1DBF2D1D1BB92D30001119B3 /* SaveList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBF2D1C1BB92D30001119B3 /* SaveList.m */; };
+		1DD0A76F1BA7B1B500F8E196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0A76E1BA7B1B500F8E196 /* main.m */; };
+		1DD0A7721BA7B1B500F8E196 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0A7711BA7B1B500F8E196 /* AppDelegate.m */; };
+		1DD0A7751BA7B1B500F8E196 /* KGKuGouPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0A7731BA7B1B500F8E196 /* KGKuGouPlayer.xcdatamodeld */; };
+		1DD0A77B1BA7B1B500F8E196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7791BA7B1B500F8E196 /* Main.storyboard */; };
+		1DD0A77D1BA7B1B500F8E196 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A77C1BA7B1B500F8E196 /* Images.xcassets */; };
+		1DD0A7801BA7B1B500F8E196 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A77E1BA7B1B500F8E196 /* LaunchScreen.xib */; };
+		1DD0A78C1BA7B1B500F8E196 /* KGKuGouPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0A78B1BA7B1B500F8E196 /* KGKuGouPlayerTests.m */; };
+		1DD0A79A1BA7C52400F8E196 /* LocolMusicList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7991BA7C52400F8E196 /* LocolMusicList.plist */; };
+		1DD0A7AF1BA7C54200F8E196 /* TFBOYS - Heart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A79C1BA7C54200F8E196 /* TFBOYS - Heart.mp3 */; };
+		1DD0A7B01BA7C54200F8E196 /* TFBOYS - 信仰之名.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A79D1BA7C54200F8E196 /* TFBOYS - 信仰之名.mp3 */; };
+		1DD0A7B11BA7C54200F8E196 /* TFBOYS - 幸运符号.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A79E1BA7C54200F8E196 /* TFBOYS - 幸运符号.mp3 */; };
+		1DD0A7B21BA7C54200F8E196 /* TFBOYS - 爱出发.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A79F1BA7C54200F8E196 /* TFBOYS - 爱出发.mp3 */; };
+		1DD0A7B31BA7C54200F8E196 /* TFBOYS - 青春修炼手册.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7A01BA7C54200F8E196 /* TFBOYS - 青春修炼手册.mp3 */; };
+		1DD0A7B41BA7C54200F8E196 /* TFBOYS - 魔法城堡.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7A11BA7C54200F8E196 /* TFBOYS - 魔法城堡.mp3 */; };
+		1DD0A7B51BA7C54200F8E196 /* 张杰 - 剑心.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7A21BA7C54200F8E196 /* 张杰 - 剑心.mp3 */; };
+		1DD0A7B61BA7C54200F8E196 /* 张靓颖 - 我们说好的.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7A31BA7C54200F8E196 /* 张靓颖 - 我们说好的.mp3 */; };
+		1DD0A7B71BA7C54200F8E196 /* 朴树 - 平凡之路.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7A41BA7C54200F8E196 /* 朴树 - 平凡之路.mp3 */; };
+		1DD0A7B81BA7C54200F8E196 /* 李宇春 - 1987我不知会遇见你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7A51BA7C54200F8E196 /* 李宇春 - 1987我不知会遇见你.mp3 */; };
+		1DD0A7B91BA7C54200F8E196 /* 李易峰 - 剑伤.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7A61BA7C54200F8E196 /* 李易峰 - 剑伤.mp3 */; };
+		1DD0A7BA1BA7C54200F8E196 /* 王菲 - 匆匆那年.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7A71BA7C54200F8E196 /* 王菲 - 匆匆那年.mp3 */; };
+		1DD0A7BB1BA7C54200F8E196 /* 王蓉 - 小鸡小鸡.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7A81BA7C54200F8E196 /* 王蓉 - 小鸡小鸡.mp3 */; };
+		1DD0A7BC1BA7C54200F8E196 /* 筷子兄弟 - 小苹果.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7A91BA7C54200F8E196 /* 筷子兄弟 - 小苹果.mp3 */; };
+		1DD0A7BD1BA7C54200F8E196 /* 筷子兄弟 - 父亲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7AA1BA7C54200F8E196 /* 筷子兄弟 - 父亲.mp3 */; };
+		1DD0A7BE1BA7C54200F8E196 /* 迪克牛仔 - 爱有奇迹.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7AB1BA7C54200F8E196 /* 迪克牛仔 - 爱有奇迹.mp3 */; };
+		1DD0A7BF1BA7C54200F8E196 /* 邓紫棋 - 泡沫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7AC1BA7C54200F8E196 /* 邓紫棋 - 泡沫.mp3 */; };
+		1DD0A7C01BA7C54200F8E196 /* 陈学冬 - 不再见.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7AD1BA7C54200F8E196 /* 陈学冬 - 不再见.mp3 */; };
+		1DD0A7C11BA7C54200F8E196 /* 齐晨 - 咱们结婚吧.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DD0A7AE1BA7C54200F8E196 /* 齐晨 - 咱们结婚吧.mp3 */; };
+		1DD0A7C51BA7C72E00F8E196 /* KGWelcomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0A7C41BA7C72E00F8E196 /* KGWelcomePageViewController.m */; };
+		1DD0A7C91BA800F400F8E196 /* KGHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0A7C81BA800F400F8E196 /* KGHomePageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DD0A7861BA7B1B500F8E196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DD0A7611BA7B1B500F8E196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD0A7681BA7B1B500F8E196;
+			remoteInfo = KGKuGouPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D0780F71BB0E81D002FEB1D /* NEUButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEUButton.h; sourceTree = "<group>"; };
+		1D0780F81BB0E81D002FEB1D /* NEUButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEUButton.m; sourceTree = "<group>"; };
+		1D0780FB1BB0FEF4002FEB1D /* CoreDataMngTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataMngTool.h; sourceTree = "<group>"; };
+		1D0780FC1BB0FEF4002FEB1D /* CoreDataMngTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataMngTool.m; sourceTree = "<group>"; };
+		1D083ADC1BABB20500B2827A /* PlayBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayBar.xib; sourceTree = "<group>"; };
+		1D083ADE1BABB4E600B2827A /* KGPlayBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGPlayBar.h; sourceTree = "<group>"; };
+		1D083ADF1BABB4E600B2827A /* KGPlayBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGPlayBar.m; sourceTree = "<group>"; };
+		1D083AE21BABB75800B2827A /* NSString+DateTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DateTransform.h"; sourceTree = "<group>"; };
+		1D083AE31BABB75800B2827A /* NSString+DateTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DateTransform.m"; sourceTree = "<group>"; };
+		1D083AE41BABB75800B2827A /* NSString+MoreExtentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MoreExtentions.h"; sourceTree = "<group>"; };
+		1D083AE51BABB75800B2827A /* NSString+MoreExtentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MoreExtentions.m"; sourceTree = "<group>"; };
+		1D083AE61BABB75800B2827A /* UIImage+MoreExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MoreExtensions.h"; sourceTree = "<group>"; };
+		1D083AE71BABB75800B2827A /* UIImage+MoreExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MoreExtensions.m"; sourceTree = "<group>"; };
+		1D083AE81BABB75800B2827A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		1D083AE91BABB75800B2827A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		1D083AF11BAF93C200B2827A /* KGMusicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGMusicTableViewCell.h; sourceTree = "<group>"; };
+		1D083AF21BAF93C200B2827A /* KGMusicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGMusicTableViewCell.m; sourceTree = "<group>"; };
+		1D0BBF881BB248F300535AF6 /* AudioPlayerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerTool.h; sourceTree = "<group>"; };
+		1D0BBF891BB248F300535AF6 /* AudioPlayerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerTool.m; sourceTree = "<group>"; };
+		1D1F7C591BAA61F000AAEC1B /* KGMusicCellStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGMusicCellStatus.h; sourceTree = "<group>"; };
+		1D1F7C5A1BAA61F000AAEC1B /* KGMusicCellStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGMusicCellStatus.m; sourceTree = "<group>"; };
+		1D1F7C5E1BAA634300AAEC1B /* KGHomePageMusicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGHomePageMusicTableViewCell.h; sourceTree = "<group>"; };
+		1D1F7C5F1BAA634300AAEC1B /* KGHomePageMusicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGHomePageMusicTableViewCell.m; sourceTree = "<group>"; };
+		1D1F7C611BAA6D1400AAEC1B /* MoreList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MoreList.plist; path = mp3/MoreList.plist; sourceTree = "<group>"; };
+		1D1F7C621BAA6D1400AAEC1B /* MyMusicSelList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MyMusicSelList.plist; path = mp3/MyMusicSelList.plist; sourceTree = "<group>"; };
+		1D1F7C631BAA6D1400AAEC1B /* webMusicList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = webMusicList.plist; path = mp3/webMusicList.plist; sourceTree = "<group>"; };
+		1D1F7C681BAB9E4C00AAEC1B /* KGLocalMusicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGLocalMusicTableViewController.h; sourceTree = "<group>"; };
+		1D1F7C691BAB9E4C00AAEC1B /* KGLocalMusicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGLocalMusicTableViewController.m; sourceTree = "<group>"; };
+		1D1F7C6C1BABA01E00AAEC1B /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		1D1F7C6D1BABA01E00AAEC1B /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
+		1D6CCBB11BBA316000F43F6F /* KGSaveListSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGSaveListSectionHeaderView.h; sourceTree = "<group>"; };
+		1D6CCBB21BBA316000F43F6F /* KGSaveListSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGSaveListSectionHeaderView.m; sourceTree = "<group>"; };
+		1D7901591BAFB2FE001D7588 /* KGMusicMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGMusicMenu.h; sourceTree = "<group>"; };
+		1D79015A1BAFB2FE001D7588 /* KGMusicMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGMusicMenu.m; sourceTree = "<group>"; };
+		1D989EA71BB8D88A001BA0E2 /* KGSaveListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGSaveListTableViewController.h; sourceTree = "<group>"; };
+		1D989EA81BB8D88A001BA0E2 /* KGSaveListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGSaveListTableViewController.m; sourceTree = "<group>"; };
+		1D989EAB1BB8DE00001BA0E2 /* KGSaveListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGSaveListView.h; sourceTree = "<group>"; };
+		1D989EAC1BB8DE00001BA0E2 /* KGSaveListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGSaveListView.m; sourceTree = "<group>"; };
+		1DB372F41BB38F0B0018CDB4 /* KGMyLoveTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGMyLoveTableViewController.h; sourceTree = "<group>"; };
+		1DB372F51BB38F0B0018CDB4 /* KGMyLoveTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGMyLoveTableViewController.m; sourceTree = "<group>"; };
+		1DBF2D1B1BB92D30001119B3 /* SaveList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveList.h; sourceTree = "<group>"; };
+		1DBF2D1C1BB92D30001119B3 /* SaveList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveList.m; sourceTree = "<group>"; };
+		1DD0A7691BA7B1B500F8E196 /* KGKuGouPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGKuGouPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD0A76D1BA7B1B500F8E196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD0A76E1BA7B1B500F8E196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DD0A7701BA7B1B500F8E196 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DD0A7711BA7B1B500F8E196 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DD0A7741BA7B1B500F8E196 /* KGKuGouPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KGKuGouPlayer.xcdatamodel; sourceTree = "<group>"; };
+		1DD0A77A1BA7B1B500F8E196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DD0A77C1BA7B1B500F8E196 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1DD0A77F1BA7B1B500F8E196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1DD0A7851BA7B1B500F8E196 /* KGKuGouPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KGKuGouPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD0A78A1BA7B1B500F8E196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD0A78B1BA7B1B500F8E196 /* KGKuGouPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGKuGouPlayerTests.m; sourceTree = "<group>"; };
+		1DD0A7991BA7C52400F8E196 /* LocolMusicList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LocolMusicList.plist; sourceTree = "<group>"; };
+		1DD0A79C1BA7C54200F8E196 /* TFBOYS - Heart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TFBOYS - Heart.mp3"; sourceTree = "<group>"; };
+		1DD0A79D1BA7C54200F8E196 /* TFBOYS - 信仰之名.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TFBOYS - 信仰之名.mp3"; sourceTree = "<group>"; };
+		1DD0A79E1BA7C54200F8E196 /* TFBOYS - 幸运符号.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TFBOYS - 幸运符号.mp3"; sourceTree = "<group>"; };
+		1DD0A79F1BA7C54200F8E196 /* TFBOYS - 爱出发.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TFBOYS - 爱出发.mp3"; sourceTree = "<group>"; };
+		1DD0A7A01BA7C54200F8E196 /* TFBOYS - 青春修炼手册.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TFBOYS - 青春修炼手册.mp3"; sourceTree = "<group>"; };
+		1DD0A7A11BA7C54200F8E196 /* TFBOYS - 魔法城堡.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TFBOYS - 魔法城堡.mp3"; sourceTree = "<group>"; };
+		1DD0A7A21BA7C54200F8E196 /* 张杰 - 剑心.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "张杰 - 剑心.mp3"; sourceTree = "<group>"; };
+		1DD0A7A31BA7C54200F8E196 /* 张靓颖 - 我们说好的.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "张靓颖 - 我们说好的.mp3"; sourceTree = "<group>"; };
+		1DD0A7A41BA7C54200F8E196 /* 朴树 - 平凡之路.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "朴树 - 平凡之路.mp3"; sourceTree = "<group>"; };
+		1DD0A7A51BA7C54200F8E196 /* 李宇春 - 1987我不知会遇见你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "李宇春 - 1987我不知会遇见你.mp3"; sourceTree = "<group>"; };
+		1DD0A7A61BA7C54200F8E196 /* 李易峰 - 剑伤.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "李易峰 - 剑伤.mp3"; sourceTree = "<group>"; };
+		1DD0A7A71BA7C54200F8E196 /* 王菲 - 匆匆那年.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "王菲 - 匆匆那年.mp3"; sourceTree = "<group>"; };
+		1DD0A7A81BA7C54200F8E196 /* 王蓉 - 小鸡小鸡.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "王蓉 - 小鸡小鸡.mp3"; sourceTree = "<group>"; };
+		1DD0A7A91BA7C54200F8E196 /* 筷子兄弟 - 小苹果.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "筷子兄弟 - 小苹果.mp3"; sourceTree = "<group>"; };
+		1DD0A7AA1BA7C54200F8E196 /* 筷子兄弟 - 父亲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "筷子兄弟 - 父亲.mp3"; sourceTree = "<group>"; };
+		1DD0A7AB1BA7C54200F8E196 /* 迪克牛仔 - 爱有奇迹.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "迪克牛仔 - 爱有奇迹.mp3"; sourceTree = "<group>"; };
+		1DD0A7AC1BA7C54200F8E196 /* 邓紫棋 - 泡沫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "邓紫棋 - 泡沫.mp3"; sourceTree = "<group>"; };
+		1DD0A7AD1BA7C54200F8E196 /* 陈学冬 - 不再见.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈学冬 - 不再见.mp3"; sourceTree = "<group>"; };
+		1DD0A7AE1BA7C54200F8E196 /* 齐晨 - 咱们结婚吧.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "齐晨 - 咱们结婚吧.mp3"; sourceTree = "<group>"; };
+		1DD0A7C31BA7C72E00F8E196 /* KGWelcomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGWelcomePageViewController.h; sourceTree = "<group>"; };
+		1DD0A7C41BA7C72E00F8E196 /* KGWelcomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGWelcomePageViewController.m; sourceTree = "<group>"; };
+		1DD0A7C71BA800F400F8E196 /* KGHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGHomePageViewController.h; sourceTree = "<group>"; };
+		1DD0A7C81BA800F400F8E196 /* KGHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGHomePageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DD0A7661BA7B1B500F8E196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD0A7821BA7B1B500F8E196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D0780FA1BB0FEE6002FEB1D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1D0780FB1BB0FEF4002FEB1D /* CoreDataMngTool.h */,
+				1D0780FC1BB0FEF4002FEB1D /* CoreDataMngTool.m */,
+				1D0BBF881BB248F300535AF6 /* AudioPlayerTool.h */,
+				1D0BBF891BB248F300535AF6 /* AudioPlayerTool.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		1D083ADB1BABB1DE00B2827A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1D083ADC1BABB20500B2827A /* PlayBar.xib */,
+				1D083ADE1BABB4E600B2827A /* KGPlayBar.h */,
+				1D083ADF1BABB4E600B2827A /* KGPlayBar.m */,
+				1D083AF11BAF93C200B2827A /* KGMusicTableViewCell.h */,
+				1D083AF21BAF93C200B2827A /* KGMusicTableViewCell.m */,
+				1D7901591BAFB2FE001D7588 /* KGMusicMenu.h */,
+				1D79015A1BAFB2FE001D7588 /* KGMusicMenu.m */,
+				1D0780F71BB0E81D002FEB1D /* NEUButton.h */,
+				1D0780F81BB0E81D002FEB1D /* NEUButton.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		1D083AE11BABB75800B2827A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1D083AE21BABB75800B2827A /* NSString+DateTransform.h */,
+				1D083AE31BABB75800B2827A /* NSString+DateTransform.m */,
+				1D083AE41BABB75800B2827A /* NSString+MoreExtentions.h */,
+				1D083AE51BABB75800B2827A /* NSString+MoreExtentions.m */,
+				1D083AE61BABB75800B2827A /* UIImage+MoreExtensions.h */,
+				1D083AE71BABB75800B2827A /* UIImage+MoreExtensions.m */,
+				1D083AE81BABB75800B2827A /* UIView+Extension.h */,
+				1D083AE91BABB75800B2827A /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1D1F7C5C1BAA62A200AAEC1B /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				1D1F7C591BAA61F000AAEC1B /* KGMusicCellStatus.h */,
+				1D1F7C5A1BAA61F000AAEC1B /* KGMusicCellStatus.m */,
+			);
+			name = "主页";
+			sourceTree = "<group>";
+		};
+		1D1F7C5D1BAA62E400AAEC1B /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				1D1F7C5E1BAA634300AAEC1B /* KGHomePageMusicTableViewCell.h */,
+				1D1F7C5F1BAA634300AAEC1B /* KGHomePageMusicTableViewCell.m */,
+			);
+			name = "主页";
+			sourceTree = "<group>";
+		};
+		1D1F7C671BAB9E1500AAEC1B /* 本地音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				1D1F7C681BAB9E4C00AAEC1B /* KGLocalMusicTableViewController.h */,
+				1D1F7C691BAB9E4C00AAEC1B /* KGLocalMusicTableViewController.m */,
+			);
+			name = "本地音乐";
+			sourceTree = "<group>";
+		};
+		1D1F7C6B1BAB9FE500AAEC1B /* 本地音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				1D1F7C6C1BABA01E00AAEC1B /* Music.h */,
+				1D1F7C6D1BABA01E00AAEC1B /* Music.m */,
+				1DBF2D1B1BB92D30001119B3 /* SaveList.h */,
+				1DBF2D1C1BB92D30001119B3 /* SaveList.m */,
+			);
+			name = "本地音乐";
+			sourceTree = "<group>";
+		};
+		1D989EA61BB8D84D001BA0E2 /* 收藏列表 */ = {
+			isa = PBXGroup;
+			children = (
+				1D989EA71BB8D88A001BA0E2 /* KGSaveListTableViewController.h */,
+				1D989EA81BB8D88A001BA0E2 /* KGSaveListTableViewController.m */,
+			);
+			name = "收藏列表";
+			sourceTree = "<group>";
+		};
+		1D989EAA1BB8DDCC001BA0E2 /* 收藏列表 */ = {
+			isa = PBXGroup;
+			children = (
+				1D989EAB1BB8DE00001BA0E2 /* KGSaveListView.h */,
+				1D989EAC1BB8DE00001BA0E2 /* KGSaveListView.m */,
+				1D6CCBB11BBA316000F43F6F /* KGSaveListSectionHeaderView.h */,
+				1D6CCBB21BBA316000F43F6F /* KGSaveListSectionHeaderView.m */,
+			);
+			name = "收藏列表";
+			sourceTree = "<group>";
+		};
+		1DB372F31BB38ECC0018CDB4 /* 我喜欢 */ = {
+			isa = PBXGroup;
+			children = (
+				1DB372F41BB38F0B0018CDB4 /* KGMyLoveTableViewController.h */,
+				1DB372F51BB38F0B0018CDB4 /* KGMyLoveTableViewController.m */,
+			);
+			name = "我喜欢";
+			sourceTree = "<group>";
+		};
+		1DD0A7601BA7B1B500F8E196 = {
+			isa = PBXGroup;
+			children = (
+				1DD0A76B1BA7B1B500F8E196 /* KGKuGouPlayer */,
+				1DD0A7881BA7B1B500F8E196 /* KGKuGouPlayerTests */,
+				1DD0A76A1BA7B1B500F8E196 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DD0A76A1BA7B1B500F8E196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD0A7691BA7B1B500F8E196 /* KGKuGouPlayer.app */,
+				1DD0A7851BA7B1B500F8E196 /* KGKuGouPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DD0A76B1BA7B1B500F8E196 /* KGKuGouPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1DD0A7981BA7B3CF00F8E196 /* Others */,
+				1DD0A7971BA7B3B300F8E196 /* Controllers */,
+				1DD0A7961BA7B3A700F8E196 /* Views */,
+				1DD0A7951BA7B39200F8E196 /* Models */,
+				1DD0A7791BA7B1B500F8E196 /* Main.storyboard */,
+				1DD0A77C1BA7B1B500F8E196 /* Images.xcassets */,
+				1DD0A77E1BA7B1B500F8E196 /* LaunchScreen.xib */,
+				1DD0A7731BA7B1B500F8E196 /* KGKuGouPlayer.xcdatamodeld */,
+				1DD0A76C1BA7B1B500F8E196 /* Supporting Files */,
+			);
+			path = KGKuGouPlayer;
+			sourceTree = "<group>";
+		};
+		1DD0A76C1BA7B1B500F8E196 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D1F7C611BAA6D1400AAEC1B /* MoreList.plist */,
+				1D1F7C621BAA6D1400AAEC1B /* MyMusicSelList.plist */,
+				1D1F7C631BAA6D1400AAEC1B /* webMusicList.plist */,
+				1DD0A79B1BA7C54200F8E196 /* mp3 */,
+				1DD0A7991BA7C52400F8E196 /* LocolMusicList.plist */,
+				1DD0A76D1BA7B1B500F8E196 /* Info.plist */,
+				1DD0A76E1BA7B1B500F8E196 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DD0A7881BA7B1B500F8E196 /* KGKuGouPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DD0A78B1BA7B1B500F8E196 /* KGKuGouPlayerTests.m */,
+				1DD0A7891BA7B1B500F8E196 /* Supporting Files */,
+			);
+			path = KGKuGouPlayerTests;
+			sourceTree = "<group>";
+		};
+		1DD0A7891BA7B1B500F8E196 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DD0A78A1BA7B1B500F8E196 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DD0A7951BA7B39200F8E196 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D1F7C6B1BAB9FE500AAEC1B /* 本地音乐 */,
+				1D1F7C5C1BAA62A200AAEC1B /* 主页 */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1DD0A7961BA7B3A700F8E196 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D989EAA1BB8DDCC001BA0E2 /* 收藏列表 */,
+				1D083ADB1BABB1DE00B2827A /* Common */,
+				1D1F7C5D1BAA62E400AAEC1B /* 主页 */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1DD0A7971BA7B3B300F8E196 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D989EA61BB8D84D001BA0E2 /* 收藏列表 */,
+				1DB372F31BB38ECC0018CDB4 /* 我喜欢 */,
+				1D1F7C671BAB9E1500AAEC1B /* 本地音乐 */,
+				1DD0A7C61BA800C700F8E196 /* 主页 */,
+				1DD0A7C21BA7C6B600F8E196 /* 欢迎页 */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1DD0A7981BA7B3CF00F8E196 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				1D0780FA1BB0FEE6002FEB1D /* Tool */,
+				1D083AE11BABB75800B2827A /* Category */,
+				1DD0A7701BA7B1B500F8E196 /* AppDelegate.h */,
+				1DD0A7711BA7B1B500F8E196 /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		1DD0A79B1BA7C54200F8E196 /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				1DD0A79C1BA7C54200F8E196 /* TFBOYS - Heart.mp3 */,
+				1DD0A79D1BA7C54200F8E196 /* TFBOYS - 信仰之名.mp3 */,
+				1DD0A79E1BA7C54200F8E196 /* TFBOYS - 幸运符号.mp3 */,
+				1DD0A79F1BA7C54200F8E196 /* TFBOYS - 爱出发.mp3 */,
+				1DD0A7A01BA7C54200F8E196 /* TFBOYS - 青春修炼手册.mp3 */,
+				1DD0A7A11BA7C54200F8E196 /* TFBOYS - 魔法城堡.mp3 */,
+				1DD0A7A21BA7C54200F8E196 /* 张杰 - 剑心.mp3 */,
+				1DD0A7A31BA7C54200F8E196 /* 张靓颖 - 我们说好的.mp3 */,
+				1DD0A7A41BA7C54200F8E196 /* 朴树 - 平凡之路.mp3 */,
+				1DD0A7A51BA7C54200F8E196 /* 李宇春 - 1987我不知会遇见你.mp3 */,
+				1DD0A7A61BA7C54200F8E196 /* 李易峰 - 剑伤.mp3 */,
+				1DD0A7A71BA7C54200F8E196 /* 王菲 - 匆匆那年.mp3 */,
+				1DD0A7A81BA7C54200F8E196 /* 王蓉 - 小鸡小鸡.mp3 */,
+				1DD0A7A91BA7C54200F8E196 /* 筷子兄弟 - 小苹果.mp3 */,
+				1DD0A7AA1BA7C54200F8E196 /* 筷子兄弟 - 父亲.mp3 */,
+				1DD0A7AB1BA7C54200F8E196 /* 迪克牛仔 - 爱有奇迹.mp3 */,
+				1DD0A7AC1BA7C54200F8E196 /* 邓紫棋 - 泡沫.mp3 */,
+				1DD0A7AD1BA7C54200F8E196 /* 陈学冬 - 不再见.mp3 */,
+				1DD0A7AE1BA7C54200F8E196 /* 齐晨 - 咱们结婚吧.mp3 */,
+			);
+			path = mp3;
+			sourceTree = "<group>";
+		};
+		1DD0A7C21BA7C6B600F8E196 /* 欢迎页 */ = {
+			isa = PBXGroup;
+			children = (
+				1DD0A7C31BA7C72E00F8E196 /* KGWelcomePageViewController.h */,
+				1DD0A7C41BA7C72E00F8E196 /* KGWelcomePageViewController.m */,
+			);
+			name = "欢迎页";
+			sourceTree = "<group>";
+		};
+		1DD0A7C61BA800C700F8E196 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				1DD0A7C71BA800F400F8E196 /* KGHomePageViewController.h */,
+				1DD0A7C81BA800F400F8E196 /* KGHomePageViewController.m */,
+			);
+			name = "主页";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DD0A7681BA7B1B500F8E196 /* KGKuGouPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD0A78F1BA7B1B500F8E196 /* Build configuration list for PBXNativeTarget "KGKuGouPlayer" */;
+			buildPhases = (
+				1DD0A7651BA7B1B500F8E196 /* Sources */,
+				1DD0A7661BA7B1B500F8E196 /* Frameworks */,
+				1DD0A7671BA7B1B500F8E196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KGKuGouPlayer;
+			productName = KGKuGouPlayer;
+			productReference = 1DD0A7691BA7B1B500F8E196 /* KGKuGouPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DD0A7841BA7B1B500F8E196 /* KGKuGouPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD0A7921BA7B1B500F8E196 /* Build configuration list for PBXNativeTarget "KGKuGouPlayerTests" */;
+			buildPhases = (
+				1DD0A7811BA7B1B500F8E196 /* Sources */,
+				1DD0A7821BA7B1B500F8E196 /* Frameworks */,
+				1DD0A7831BA7B1B500F8E196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DD0A7871BA7B1B500F8E196 /* PBXTargetDependency */,
+			);
+			name = KGKuGouPlayerTests;
+			productName = KGKuGouPlayerTests;
+			productReference = 1DD0A7851BA7B1B500F8E196 /* KGKuGouPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DD0A7611BA7B1B500F8E196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = hegf;
+				TargetAttributes = {
+					1DD0A7681BA7B1B500F8E196 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1DD0A7841BA7B1B500F8E196 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1DD0A7681BA7B1B500F8E196;
+					};
+				};
+			};
+			buildConfigurationList = 1DD0A7641BA7B1B500F8E196 /* Build configuration list for PBXProject "KGKuGouPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DD0A7601BA7B1B500F8E196;
+			productRefGroup = 1DD0A76A1BA7B1B500F8E196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DD0A7681BA7B1B500F8E196 /* KGKuGouPlayer */,
+				1DD0A7841BA7B1B500F8E196 /* KGKuGouPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DD0A7671BA7B1B500F8E196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD0A79A1BA7C52400F8E196 /* LocolMusicList.plist in Resources */,
+				1DD0A7BD1BA7C54200F8E196 /* 筷子兄弟 - 父亲.mp3 in Resources */,
+				1DD0A77B1BA7B1B500F8E196 /* Main.storyboard in Resources */,
+				1DD0A7AF1BA7C54200F8E196 /* TFBOYS - Heart.mp3 in Resources */,
+				1DD0A7BB1BA7C54200F8E196 /* 王蓉 - 小鸡小鸡.mp3 in Resources */,
+				1DD0A7801BA7B1B500F8E196 /* LaunchScreen.xib in Resources */,
+				1DD0A7BC1BA7C54200F8E196 /* 筷子兄弟 - 小苹果.mp3 in Resources */,
+				1DD0A7B31BA7C54200F8E196 /* TFBOYS - 青春修炼手册.mp3 in Resources */,
+				1DD0A7B61BA7C54200F8E196 /* 张靓颖 - 我们说好的.mp3 in Resources */,
+				1DD0A7B81BA7C54200F8E196 /* 李宇春 - 1987我不知会遇见你.mp3 in Resources */,
+				1DD0A7B41BA7C54200F8E196 /* TFBOYS - 魔法城堡.mp3 in Resources */,
+				1DD0A7BA1BA7C54200F8E196 /* 王菲 - 匆匆那年.mp3 in Resources */,
+				1DD0A7B11BA7C54200F8E196 /* TFBOYS - 幸运符号.mp3 in Resources */,
+				1DD0A7B71BA7C54200F8E196 /* 朴树 - 平凡之路.mp3 in Resources */,
+				1DD0A7B01BA7C54200F8E196 /* TFBOYS - 信仰之名.mp3 in Resources */,
+				1D1F7C641BAA6D1400AAEC1B /* MoreList.plist in Resources */,
+				1D083ADD1BABB20500B2827A /* PlayBar.xib in Resources */,
+				1DD0A7C11BA7C54200F8E196 /* 齐晨 - 咱们结婚吧.mp3 in Resources */,
+				1DD0A7B51BA7C54200F8E196 /* 张杰 - 剑心.mp3 in Resources */,
+				1DD0A7BE1BA7C54200F8E196 /* 迪克牛仔 - 爱有奇迹.mp3 in Resources */,
+				1DD0A7BF1BA7C54200F8E196 /* 邓紫棋 - 泡沫.mp3 in Resources */,
+				1DD0A7B21BA7C54200F8E196 /* TFBOYS - 爱出发.mp3 in Resources */,
+				1D1F7C651BAA6D1400AAEC1B /* MyMusicSelList.plist in Resources */,
+				1DD0A7B91BA7C54200F8E196 /* 李易峰 - 剑伤.mp3 in Resources */,
+				1D1F7C661BAA6D1400AAEC1B /* webMusicList.plist in Resources */,
+				1DD0A77D1BA7B1B500F8E196 /* Images.xcassets in Resources */,
+				1DD0A7C01BA7C54200F8E196 /* 陈学冬 - 不再见.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD0A7831BA7B1B500F8E196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DD0A7651BA7B1B500F8E196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1F7C6E1BABA01E00AAEC1B /* Music.m in Sources */,
+				1DD0A7721BA7B1B500F8E196 /* AppDelegate.m in Sources */,
+				1DD0A7C91BA800F400F8E196 /* KGHomePageViewController.m in Sources */,
+				1D0780FD1BB0FEF4002FEB1D /* CoreDataMngTool.m in Sources */,
+				1D083AE01BABB4E600B2827A /* KGPlayBar.m in Sources */,
+				1DD0A76F1BA7B1B500F8E196 /* main.m in Sources */,
+				1D083AEA1BABB75800B2827A /* NSString+DateTransform.m in Sources */,
+				1D989EAD1BB8DE00001BA0E2 /* KGSaveListView.m in Sources */,
+				1D083AEC1BABB75800B2827A /* UIImage+MoreExtensions.m in Sources */,
+				1D083AF31BAF93C200B2827A /* KGMusicTableViewCell.m in Sources */,
+				1D1F7C6A1BAB9E4C00AAEC1B /* KGLocalMusicTableViewController.m in Sources */,
+				1D989EA91BB8D88A001BA0E2 /* KGSaveListTableViewController.m in Sources */,
+				1D79015B1BAFB2FE001D7588 /* KGMusicMenu.m in Sources */,
+				1DBF2D1D1BB92D30001119B3 /* SaveList.m in Sources */,
+				1D6CCBB31BBA316000F43F6F /* KGSaveListSectionHeaderView.m in Sources */,
+				1D0BBF8A1BB248F300535AF6 /* AudioPlayerTool.m in Sources */,
+				1D1F7C5B1BAA61F000AAEC1B /* KGMusicCellStatus.m in Sources */,
+				1DB372F61BB38F0B0018CDB4 /* KGMyLoveTableViewController.m in Sources */,
+				1D1F7C601BAA634300AAEC1B /* KGHomePageMusicTableViewCell.m in Sources */,
+				1D083AED1BABB75800B2827A /* UIView+Extension.m in Sources */,
+				1DD0A7C51BA7C72E00F8E196 /* KGWelcomePageViewController.m in Sources */,
+				1DD0A7751BA7B1B500F8E196 /* KGKuGouPlayer.xcdatamodeld in Sources */,
+				1D0780F91BB0E81D002FEB1D /* NEUButton.m in Sources */,
+				1D083AEB1BABB75800B2827A /* NSString+MoreExtentions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD0A7811BA7B1B500F8E196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD0A78C1BA7B1B500F8E196 /* KGKuGouPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DD0A7871BA7B1B500F8E196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DD0A7681BA7B1B500F8E196 /* KGKuGouPlayer */;
+			targetProxy = 1DD0A7861BA7B1B500F8E196 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DD0A7791BA7B1B500F8E196 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DD0A77A1BA7B1B500F8E196 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DD0A77E1BA7B1B500F8E196 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DD0A77F1BA7B1B500F8E196 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DD0A78D1BA7B1B500F8E196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DD0A78E1BA7B1B500F8E196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DD0A7901BA7B1B500F8E196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KGKuGouPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DD0A7911BA7B1B500F8E196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KGKuGouPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1DD0A7931BA7B1B500F8E196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KGKuGouPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KGKuGouPlayer.app/KGKuGouPlayer";
+			};
+			name = Debug;
+		};
+		1DD0A7941BA7B1B500F8E196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KGKuGouPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KGKuGouPlayer.app/KGKuGouPlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DD0A7641BA7B1B500F8E196 /* Build configuration list for PBXProject "KGKuGouPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD0A78D1BA7B1B500F8E196 /* Debug */,
+				1DD0A78E1BA7B1B500F8E196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD0A78F1BA7B1B500F8E196 /* Build configuration list for PBXNativeTarget "KGKuGouPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD0A7901BA7B1B500F8E196 /* Debug */,
+				1DD0A7911BA7B1B500F8E196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD0A7921BA7B1B500F8E196 /* Build configuration list for PBXNativeTarget "KGKuGouPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD0A7931BA7B1B500F8E196 /* Debug */,
+				1DD0A7941BA7B1B500F8E196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1DD0A7731BA7B1B500F8E196 /* KGKuGouPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DD0A7741BA7B1B500F8E196 /* KGKuGouPlayer.xcdatamodel */,
+			);
+			currentVersion = 1DD0A7741BA7B1B500F8E196 /* KGKuGouPlayer.xcdatamodel */;
+			path = KGKuGouPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1DD0A7611BA7B1B500F8E196 /* Project object */;
+}
